@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<html>
+@{
+    await Html.RenderPartialAsync("head");
+}
+<body>
+    @{await Html.RenderPartialAsync("topbar");}
+</body>
+</html>
